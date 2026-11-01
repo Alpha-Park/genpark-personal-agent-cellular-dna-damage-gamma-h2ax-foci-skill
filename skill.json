@@ -1,0 +1,22 @@
+{
+  "name": "genpark-personal-agent-cellular-dna-damage-gamma-h2ax-foci-skill",
+  "version": "1.0.0",
+  "description": "Peripheral blood lymphocyte gamma-H2AX double-strand break (DSB) foci phosphorylation & genotoxic stress index.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "audit_gamma_h2ax_dna_damage_foci",
+      "description": "Peripheral blood lymphocyte gamma-H2AX double-strand break (DSB) foci phosphorylation & genotoxic stress index.",
+      "sample_input": {
+        "mean_foci_per_cell": 0.42,
+        "age_years": 46,
+        "previous_foci": 0.28,
+        "recent_radiation_exposure": false
+      }
+    }
+  ]
+}
